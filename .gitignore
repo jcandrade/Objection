@@ -18,4 +18,6 @@ _site
 !Objection.xcworkspace
 run
 pkg
+
+Carthage/
 .DS_Store
