@@ -1307,7 +1307,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				GCC_WARN_UNDECLARED_SELECTOR = NO;
 				INFOPLIST_FILE = "Objection-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
@@ -1319,8 +1319,6 @@
 				);
 				PRODUCT_NAME = Objection;
 				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos";
-				VALID_ARCHS = "i386 x86_64 armv7s armv7 arm64";
 			};
 			name = Debug;
 		};
@@ -1337,7 +1335,7 @@
 				FRAMEWORK_VERSION = A;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				GCC_WARN_UNDECLARED_SELECTOR = NO;
 				INFOPLIST_FILE = "Objection-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
@@ -1349,8 +1347,6 @@
 				);
 				PRODUCT_NAME = Objection;
 				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos";
-				VALID_ARCHS = "i386 x86_64 armv7s armv7 arm64";
 				ZERO_LINK = NO;
 			};
 			name = Release;
