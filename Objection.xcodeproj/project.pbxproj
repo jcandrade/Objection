@@ -430,7 +430,7 @@
 		4BF451AC12919CAD006EB2D5 /* Fixtures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fixtures.m; sourceTree = "<group>"; };
 		4BF451E21291AD28006EB2D5 /* InjectionErrorsSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InjectionErrorsSpecs.m; sourceTree = "<group>"; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AB21C8941EE20464003B5E69 /* ObjectionIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectionIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB21C8941EE20464003B5E69 /* Objection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Objection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB21C8951EE20464003B5E69 /* ObjectionIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ObjectionIOS-Info.plist"; path = "/Users/Jonathan/Documents/Objection/ObjectionIOS-Info.plist"; sourceTree = "<absolute>"; };
 		D2AAC07E0554694100DB518D /* libObjection-StaticLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libObjection-StaticLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AAC07E0554694100DB5192 /* CircularDependencySpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularDependencySpecs.m; sourceTree = "<group>"; };
@@ -492,7 +492,7 @@
 				4BED511612AA8B7A00CA6B36 /* Objection.framework */,
 				4B42580813F56CC0006BC001 /* Specs-iOS.xctest */,
 				4B42587513F56EA3006BC001 /* Specs-OSX.xctest */,
-				AB21C8941EE20464003B5E69 /* ObjectionIOS.framework */,
+				AB21C8941EE20464003B5E69 /* Objection.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -816,7 +816,7 @@
 			);
 			name = ObjectionIOS;
 			productName = Objection;
-			productReference = AB21C8941EE20464003B5E69 /* ObjectionIOS.framework */;
+			productReference = AB21C8941EE20464003B5E69 /* Objection.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D2AAC07D0554694100DB518D /* Objection-StaticLib */ = {
@@ -1294,7 +1294,7 @@
 		1DEB922308733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1323,7 +1323,7 @@
 		1DEB922408733DC00010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1617,8 +1617,9 @@
 				INFOPLIST_FILE = "ObjectionIOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Objection;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -1651,8 +1652,9 @@
 				INFOPLIST_FILE = "ObjectionIOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Objection;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
