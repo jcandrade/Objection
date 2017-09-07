@@ -6,22 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		4B25BE4A1291C43400821DC1 /* Objection-iOS */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 4B25BE4D1291C45200821DC1 /* Build configuration list for PBXAggregateTarget "Objection-iOS" */;
-			buildPhases = (
-				4B25BE4F1291C4FB00821DC1 /* Build Static Libs */,
-				4B25BE511291C51E00821DC1 /* Build Universal Lib */,
-				4B25BE571291C58800821DC1 /* Copy Header Files */,
-			);
-			dependencies = (
-			);
-			name = "Objection-iOS";
-			productName = "Objection-iPhone";
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		4B2D26A01AC1E54400FF802F /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B833A881AC1B5FE00C84F00 /* Nimble.framework */; };
 		4B2D26A11AC1E54400FF802F /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B833A951AC1B60C00C84F00 /* Quick.framework */; };
@@ -71,27 +55,21 @@
 		4B496E6C12B0F3E50053F2A3 /* JSObjectionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B496E6A12B0F3E50053F2A3 /* JSObjectionUtils.m */; };
 		4B496E6D12B0F3E50053F2A3 /* JSObjectionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B496E6A12B0F3E50053F2A3 /* JSObjectionUtils.m */; };
 		4B4B21A41342B78E00833077 /* JSObjectionEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B4B21A31342B78E00833077 /* JSObjectionEntry.h */; };
-		4B4B21A51342B78E00833077 /* JSObjectionEntry.h in Copy Header Files */ = {isa = PBXBuildFile; fileRef = 4B4B21A31342B78E00833077 /* JSObjectionEntry.h */; };
 		4B4B21A61342B78E00833077 /* JSObjectionEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B4B21A31342B78E00833077 /* JSObjectionEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B4B21A91342B79E00833077 /* JSObjectionEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B21A71342B79E00833077 /* JSObjectionEntry.m */; };
 		4B4B21AC1342B79E00833077 /* JSObjectionEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B21A71342B79E00833077 /* JSObjectionEntry.m */; };
-		4B4F7B5814577AB50064EBFB /* JSObjectFactory.h in Copy Header Files */ = {isa = PBXBuildFile; fileRef = 4BE7875E145647EF00BD705E /* JSObjectFactory.h */; };
 		4B53383317AC1420004BDF83 /* JSObjectionRuntimePropertyReflector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53383117AC1420004BDF83 /* JSObjectionRuntimePropertyReflector.h */; };
-		4B53383417AC1420004BDF83 /* JSObjectionRuntimePropertyReflector.h in Copy Header Files */ = {isa = PBXBuildFile; fileRef = 4B53383117AC1420004BDF83 /* JSObjectionRuntimePropertyReflector.h */; };
 		4B53383517AC1420004BDF83 /* JSObjectionRuntimePropertyReflector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53383117AC1420004BDF83 /* JSObjectionRuntimePropertyReflector.h */; };
 		4B53383617AC1420004BDF83 /* JSObjectionRuntimePropertyReflector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B53383217AC1420004BDF83 /* JSObjectionRuntimePropertyReflector.m */; };
-		4B53383717AC1420004BDF83 /* JSObjectionRuntimePropertyReflector.m in Copy Header Files */ = {isa = PBXBuildFile; fileRef = 4B53383217AC1420004BDF83 /* JSObjectionRuntimePropertyReflector.m */; };
 		4B53383817AC1420004BDF83 /* JSObjectionRuntimePropertyReflector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B53383217AC1420004BDF83 /* JSObjectionRuntimePropertyReflector.m */; };
 		4B53383917AC1420004BDF83 /* JSObjectionRuntimePropertyReflector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B53383217AC1420004BDF83 /* JSObjectionRuntimePropertyReflector.m */; };
 		4B53383A17AC1420004BDF83 /* JSObjectionRuntimePropertyReflector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B53383217AC1420004BDF83 /* JSObjectionRuntimePropertyReflector.m */; };
 		4B53471112F3165F000480AB /* NSObject+Objection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53470E12F3165F000480AB /* NSObject+Objection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B53471312F3165F000480AB /* NSObject+Objection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53470E12F3165F000480AB /* NSObject+Objection.h */; };
-		4B53471512F31660000480AB /* NSObject+Objection.h in Copy Header Files */ = {isa = PBXBuildFile; fileRef = 4B53470E12F3165F000480AB /* NSObject+Objection.h */; };
 		4B53471A12F316A4000480AB /* NSObject+Objection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B53471812F316A4000480AB /* NSObject+Objection.m */; };
 		4B53471B12F316A4000480AB /* NSObject+Objection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B53471812F316A4000480AB /* NSObject+Objection.m */; };
 		4B75FA771AC1E3FD00060FE1 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B75FA761AC1E3FD00060FE1 /* Stub.swift */; };
 		4B75FA781AC1E3FD00060FE1 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B75FA761AC1E3FD00060FE1 /* Stub.swift */; };
-		4B81F8D0135D06A300221A88 /* JSObjectionProviderEntry.h in Copy Header Files */ = {isa = PBXBuildFile; fileRef = 4B81F8CE135D06A300221A88 /* JSObjectionProviderEntry.h */; };
 		4B81F8D2135D06A300221A88 /* JSObjectionProviderEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B81F8CE135D06A300221A88 /* JSObjectionProviderEntry.h */; };
 		4B81F8D5135D06A300221A88 /* JSObjectionProviderEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B81F8CE135D06A300221A88 /* JSObjectionProviderEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B81F8DE135D06C200221A88 /* JSObjectionProviderEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B81F8DC135D06C200221A88 /* JSObjectionProviderEntry.m */; };
@@ -109,19 +87,12 @@
 		4B957EC712ADE03900CBF1EB /* JSObjectionModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B957EC512ADE03900CBF1EB /* JSObjectionModule.m */; };
 		4B957EC812ADE05D00CBF1EB /* JSObjectionModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B957EC512ADE03900CBF1EB /* JSObjectionModule.m */; };
 		4B957EE712ADE26500CBF1EB /* Objection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B957EE612ADE26500CBF1EB /* Objection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B9582C212AE753800CBF1EB /* Objection.h in Copy Header Files */ = {isa = PBXBuildFile; fileRef = 4B957EE612ADE26500CBF1EB /* Objection.h */; };
-		4B9582C312AE755000CBF1EB /* JSObjectionModule.h in Copy Header Files */ = {isa = PBXBuildFile; fileRef = 4B957EC212ADDFC500CBF1EB /* JSObjectionModule.h */; };
 		4B9D30FF13DF5FAC00C81C45 /* JSObjectionUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B9D30FE13DF5FAC00C81C45 /* JSObjectionUtils.h */; };
 		4B9D310013DF5FAC00C81C45 /* JSObjectionUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B9D30FE13DF5FAC00C81C45 /* JSObjectionUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B9D310313DF613600C81C45 /* JSObjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B9D310113DF613500C81C45 /* JSObjection.h */; };
 		4B9D310413DF613600C81C45 /* JSObjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B9D310113DF613500C81C45 /* JSObjection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B9D310513DF613600C81C45 /* JSObjection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D310213DF613500C81C45 /* JSObjection.m */; };
 		4B9D310713DF613600C81C45 /* JSObjection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D310213DF613500C81C45 /* JSObjection.m */; };
-		4B9D311413DF79FE00C81C45 /* JSObjectionUtils.h in Copy Header Files */ = {isa = PBXBuildFile; fileRef = 4B9D30FE13DF5FAC00C81C45 /* JSObjectionUtils.h */; };
-		4B9D311513DF79FE00C81C45 /* JSObjection.h in Copy Header Files */ = {isa = PBXBuildFile; fileRef = 4B9D310113DF613500C81C45 /* JSObjection.h */; };
-		4BA6DD1F12AAB3CD00CFFD70 /* JSObjectionInjectorEntry.h in Copy Header Files */ = {isa = PBXBuildFile; fileRef = 4BED512F12AA8BF300CA6B36 /* JSObjectionInjectorEntry.h */; };
-		4BA6DD2012AAB3CD00CFFD70 /* JSObjectionInjector.h in Copy Header Files */ = {isa = PBXBuildFile; fileRef = 4BED513012AA8BF300CA6B36 /* JSObjectionInjector.h */; };
-		4BA6DD2112AAB3CD00CFFD70 /* JSObjectionBindingEntry.h in Copy Header Files */ = {isa = PBXBuildFile; fileRef = 4BED513112AA8BF300CA6B36 /* JSObjectionBindingEntry.h */; };
 		4BB07D751668679A00D9BA1E /* AddAndRemoveModulesSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB07D741668679A00D9BA1E /* AddAndRemoveModulesSpecs.m */; };
 		4BB07D761668679A00D9BA1E /* AddAndRemoveModulesSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB07D741668679A00D9BA1E /* AddAndRemoveModulesSpecs.m */; };
 		4BE78760145647EF00BD705E /* JSObjectFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE7875E145647EF00BD705E /* JSObjectFactory.h */; };
@@ -333,29 +304,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4B25BE571291C58800821DC1 /* Copy Header Files */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 12;
-			dstPath = "${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal/${PRODUCT_NAME}.framework/Versions/A/Headers/";
-			dstSubfolderSpec = 0;
-			files = (
-				4B9D311413DF79FE00C81C45 /* JSObjectionUtils.h in Copy Header Files */,
-				4B9D311513DF79FE00C81C45 /* JSObjection.h in Copy Header Files */,
-				4B9582C312AE755000CBF1EB /* JSObjectionModule.h in Copy Header Files */,
-				4B4F7B5814577AB50064EBFB /* JSObjectFactory.h in Copy Header Files */,
-				4B9582C212AE753800CBF1EB /* Objection.h in Copy Header Files */,
-				4BA6DD1F12AAB3CD00CFFD70 /* JSObjectionInjectorEntry.h in Copy Header Files */,
-				4BA6DD2012AAB3CD00CFFD70 /* JSObjectionInjector.h in Copy Header Files */,
-				4BA6DD2112AAB3CD00CFFD70 /* JSObjectionBindingEntry.h in Copy Header Files */,
-				4B53471512F31660000480AB /* NSObject+Objection.h in Copy Header Files */,
-				4B4B21A51342B78E00833077 /* JSObjectionEntry.h in Copy Header Files */,
-				4B81F8D0135D06A300221A88 /* JSObjectionProviderEntry.h in Copy Header Files */,
-				4B53383417AC1420004BDF83 /* JSObjectionRuntimePropertyReflector.h in Copy Header Files */,
-				4B53383717AC1420004BDF83 /* JSObjectionRuntimePropertyReflector.m in Copy Header Files */,
-			);
-			name = "Copy Header Files";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4B8899F91AC1EB5A00B548E9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
@@ -431,7 +379,7 @@
 		4BF451E21291AD28006EB2D5 /* InjectionErrorsSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InjectionErrorsSpecs.m; sourceTree = "<group>"; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AB21C8941EE20464003B5E69 /* Objection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Objection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB21C8951EE20464003B5E69 /* ObjectionIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ObjectionIOS-Info.plist"; path = "/Users/Jonathan/Documents/Objection/ObjectionIOS-Info.plist"; sourceTree = "<absolute>"; };
+		AB21C8951EE20464003B5E69 /* Objection-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Objection-iOS-Info.plist"; path = "/Users/Jonathan/Documents/Objection/Objection-iOS-Info.plist"; sourceTree = "<absolute>"; };
 		D2AAC07E0554694100DB518D /* libObjection-StaticLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libObjection-StaticLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AAC07E0554694100DB5192 /* CircularDependencySpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularDependencySpecs.m; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB5195 /* CircularDependencyFixtures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularDependencyFixtures.m; sourceTree = "<group>"; };
@@ -506,7 +454,7 @@
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 				4BED511712AA8B7A00CA6B36 /* Objection-Info.plist */,
-				AB21C8951EE20464003B5E69 /* ObjectionIOS-Info.plist */,
+				AB21C8951EE20464003B5E69 /* Objection-iOS-Info.plist */,
 			);
 			name = Objection;
 			sourceTree = "<group>";
@@ -801,9 +749,9 @@
 			productReference = 4BED511612AA8B7A00CA6B36 /* Objection.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AB21C8751EE20464003B5E69 /* ObjectionIOS */ = {
+		AB21C8751EE20464003B5E69 /* Objection-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB21C8911EE20464003B5E69 /* Build configuration list for PBXNativeTarget "ObjectionIOS" */;
+			buildConfigurationList = AB21C8911EE20464003B5E69 /* Build configuration list for PBXNativeTarget "Objection-iOS" */;
 			buildPhases = (
 				AB21C8761EE20464003B5E69 /* Headers */,
 				AB21C8831EE20464003B5E69 /* Resources */,
@@ -814,7 +762,7 @@
 			);
 			dependencies = (
 			);
-			name = ObjectionIOS;
+			name = "Objection-iOS";
 			productName = Objection;
 			productReference = AB21C8941EE20464003B5E69 /* Objection.framework */;
 			productType = "com.apple.product-type.framework";
@@ -871,9 +819,8 @@
 			projectRoot = "";
 			targets = (
 				D2AAC07D0554694100DB518D /* Objection-StaticLib */,
-				4B25BE4A1291C43400821DC1 /* Objection-iOS */,
 				4BED511512AA8B7A00CA6B36 /* Objection */,
-				AB21C8751EE20464003B5E69 /* ObjectionIOS */,
+				AB21C8751EE20464003B5E69 /* Objection-iOS */,
 				4B42580713F56CC0006BC001 /* Specs-iOS */,
 				4B42587413F56EA3006BC001 /* Specs-OSX */,
 			);
@@ -1048,37 +995,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		4B25BE4F1291C4FB00821DC1 /* Build Static Libs */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Build Static Libs";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "xcodebuild -project ${PROJECT_NAME}.xcodeproj -sdk iphonesimulator -target ${PROJECT_NAME}-StaticLib -configuration ${CONFIGURATION} clean build\nxcodebuild -project ${PROJECT_NAME}.xcodeproj -sdk iphoneos -target ${PROJECT_NAME}-StaticLib -configuration ${CONFIGURATION} clean build";
-		};
-		4B25BE511291C51E00821DC1 /* Build Universal Lib */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 12;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Build Universal Lib";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "SIMULATOR_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}-StaticLib.a\" &&\n\tDEVICE_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}-StaticLib.a\" &&\n\tUNIVERSAL_LIBRARY_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal\" &&\n\tUNIVERSAL_LIBRARY_PATH=\"${UNIVERSAL_LIBRARY_DIR}/${PRODUCT_NAME}\" &&\n\tFRAMEWORK=\"${UNIVERSAL_LIBRARY_DIR}/${PRODUCT_NAME}.framework\" &&\n\n# Create framework directory structure.\n\trm -rf \"${FRAMEWORK}\" &&\n\tmkdir -p \"${UNIVERSAL_LIBRARY_DIR}\" &&\n\tmkdir -p \"${FRAMEWORK}/Versions/A/Headers\" &&\n\tmkdir -p \"${FRAMEWORK}/Versions/A/Resources\" &&\n\n# Generate universal binary from desktop, device, and simulator builds.\n\tlipo \"${SIMULATOR_LIBRARY_PATH}\" \"${DEVICE_LIBRARY_PATH}\" -create -output \"${UNIVERSAL_LIBRARY_PATH}\" &&\n\n# Move files to appropriate locations in framework paths.\n\tcp \"${UNIVERSAL_LIBRARY_PATH}\" \"${FRAMEWORK}/Versions/A\" &&\n\tln -s \"A\" \"${FRAMEWORK}/Versions/Current\" &&\n\tln -s \"Versions/Current/Headers\" \"${FRAMEWORK}/Headers\" &&\n\tln -s \"Versions/Current/Resources\" \"${FRAMEWORK}/Resources\" &&\n\tln -s \"Versions/Current/${PRODUCT_NAME}\" \"${FRAMEWORK}/${PRODUCT_NAME}\" &&\n\tcp \"${SRCROOT}/${PROJECT_NAME}-Info.plist\" \"${FRAMEWORK}/Resources/Info.plist\"\n\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4B42580313F56CC0006BC001 /* Sources */ = {
@@ -1347,34 +1263,6 @@
 			};
 			name = Release;
 		};
-		4B25BE4B1291C43400821DC1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNDECLARED_SELECTOR = NO;
-				PRODUCT_NAME = "Objection-iOS";
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		4B25BE4C1291C43400821DC1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_UNDECLARED_SELECTOR = NO;
-				PRODUCT_NAME = "Objection-iOS";
-				SDKROOT = iphoneos;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
 		4B42581813F56CC1006BC001 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1614,7 +1502,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_WARN_UNDECLARED_SELECTOR = NO;
-				INFOPLIST_FILE = "ObjectionIOS-Info.plist";
+				INFOPLIST_FILE = "Objection-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "";
@@ -1649,7 +1537,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_WARN_UNDECLARED_SELECTOR = NO;
-				INFOPLIST_FILE = "ObjectionIOS-Info.plist";
+				INFOPLIST_FILE = "Objection-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "";
@@ -1686,15 +1574,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B25BE4D1291C45200821DC1 /* Build configuration list for PBXAggregateTarget "Objection-iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4B25BE4B1291C43400821DC1 /* Debug */,
-				4B25BE4C1291C43400821DC1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4B42581713F56CC1006BC001 /* Build configuration list for PBXNativeTarget "Specs-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1722,7 +1601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB21C8911EE20464003B5E69 /* Build configuration list for PBXNativeTarget "ObjectionIOS" */ = {
+		AB21C8911EE20464003B5E69 /* Build configuration list for PBXNativeTarget "Objection-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB21C8921EE20464003B5E69 /* Debug */,

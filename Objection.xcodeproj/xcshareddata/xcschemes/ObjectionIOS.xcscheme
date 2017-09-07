@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB21C8751EE20464003B5E69"
-               BuildableName = "ObjectionIOS.framework"
-               BlueprintName = "ObjectionIOS"
+               BuildableName = "Objection.framework"
+               BlueprintName = "Objection-iOS"
                ReferencedContainer = "container:Objection.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB21C8751EE20464003B5E69"
-            BuildableName = "ObjectionIOS.framework"
-            BlueprintName = "ObjectionIOS"
+            BuildableName = "Objection.framework"
+            BlueprintName = "Objection-iOS"
             ReferencedContainer = "container:Objection.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB21C8751EE20464003B5E69"
-            BuildableName = "ObjectionIOS.framework"
-            BlueprintName = "ObjectionIOS"
+            BuildableName = "Objection.framework"
+            BlueprintName = "Objection-iOS"
             ReferencedContainer = "container:Objection.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
