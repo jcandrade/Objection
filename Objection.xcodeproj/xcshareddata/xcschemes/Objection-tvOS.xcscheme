@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB7460BF1F689B1F00C8B5E8"
-               BuildableName = "Objection-tvOS.framework"
+               BuildableName = "Objection.framework"
                BlueprintName = "Objection-tvOS"
                ReferencedContainer = "container:Objection.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB7460BF1F689B1F00C8B5E8"
-            BuildableName = "Objection-tvOS.framework"
+            BuildableName = "Objection.framework"
             BlueprintName = "Objection-tvOS"
             ReferencedContainer = "container:Objection.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB7460BF1F689B1F00C8B5E8"
-            BuildableName = "Objection-tvOS.framework"
+            BuildableName = "Objection.framework"
             BlueprintName = "Objection-tvOS"
             ReferencedContainer = "container:Objection.xcodeproj">
          </BuildableReference>
