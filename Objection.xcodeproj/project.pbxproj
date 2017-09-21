@@ -1635,6 +1635,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.atomicobject.Objection;
 				PRODUCT_NAME = Objection;
@@ -1642,7 +1643,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "armv7s arm64 armv7";
+				VALID_ARCHS = "armv7 arm64 armv7s";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1678,7 +1679,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "armv7s arm64 armv7";
+				VALID_ARCHS = "armv7 arm64 armv7s";
 				VERSIONING_SYSTEM = "apple-generic";
 				ZERO_LINK = NO;
 			};
